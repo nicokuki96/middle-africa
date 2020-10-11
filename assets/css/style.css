@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #18d26e;
+  color: #f49f16;
   text-decoration: none;
 }
 
@@ -511,7 +511,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
 }
 
 #intro .btn-get-started:hover {
@@ -1189,48 +1188,48 @@ section {
   background-color: #18d26e;
 }
 
-/* Testimonials Section
+/* accomodations Section
 --------------------------------*/
-#testimonials {
+.accomodations {
   padding: 60px 0;
 }
 
-#testimonials .section-header {
+.accomodations .section-header {
   margin-bottom: 40px;
 }
 
-#testimonials .testimonial-item {
+.accomodations .testimonial-item {
   text-align: center;
 }
 
-#testimonials .testimonial-item .testimonial-img {
+.accomodations .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
 }
 
-#testimonials .testimonial-item h3 {
+.accomodations .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-#testimonials .testimonial-item h4 {
+.accomodations .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 15px 0;
 }
 
-#testimonials .testimonial-item .quote-sign-left {
+.accomodations .testimonial-item .quote-sign-left {
   margin-top: -15px;
   padding-right: 10px;
   display: inline-block;
   width: 37px;
 }
 
-#testimonials .testimonial-item .quote-sign-right {
+.accomodations .testimonial-item .quote-sign-right {
   margin-bottom: -15px;
   padding-left: 10px;
   display: inline-block;
@@ -1238,23 +1237,23 @@ section {
   width: 37px;
 }
 
-#testimonials .testimonial-item p {
+.accomodations .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
 @media (min-width: 992px) {
-  #testimonials .testimonial-item p {
+  .accomodations .testimonial-item p {
     width: 80%;
   }
 }
 
-#testimonials .owl-nav, #testimonials .owl-dots {
+.accomodations .owl-nav, #testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#testimonials .owl-dot {
+.accomodations .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1263,7 +1262,7 @@ section {
   background-color: #ddd;
 }
 
-#testimonials .owl-dot.active {
+.accomodations .owl-dot.active {
   background-color: #18d26e;
 }
 
@@ -1638,6 +1637,10 @@ i.ion-ios-telephone-outline {
   #footer .row {
     margin-left: 10px;
   }
+  .country_info .uk-card.uk-card-default {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 section#contact input {
@@ -1671,7 +1674,7 @@ section.country_info a {
   background-color: #606060;
 }
 
-.uk-dotnav>.uk-active>* {
+.country_info .uk-dotnav>.uk-active>* {
   background-color: #f49f16;
 }
 
@@ -1679,14 +1682,14 @@ section.country_info a {
   color: #f49f16 !important;
 }
 
-.uk-card.uk-card-default {
+.country_info .uk-card.uk-card-default {
   box-shadow: none;
   padding-left: 100px;
   padding-right: 100px;
 }
 
 @media (min-width: 640px){
-  .uk-child-width-1-2\@s>* {
+  .country_info .uk-child-width-1-2\@s>* {
       width: 90%;
   }
 }
@@ -1740,3 +1743,68 @@ section.country_info img.flagcountry {
   color: #f49f16 !important;
 }
 
+a.uk-position-center-left.uk-position-small.uk-hidden-hover.uk-icon.uk-slidenav-previous.uk-slidenav {
+  color: #000;
+}
+a.uk-position-center-right.uk-position-small.uk-hidden-hover.uk-icon.uk-slidenav-next.uk-slidenav {
+  color: #000;
+}
+
+.uk-card-media-top img.acoimage {
+  height: 100%;
+  width: 100%;
+}
+
+#accomodations .uk-card.uk-card-default {
+  border-top-left-radius: 20px 40px;
+  border-top-right-radius: 20px 40px;
+  height: 100%;
+  width: 100%;
+}
+
+.uk-card.uk-card-default p.nametext {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (min-width: 640px){
+  .uk-child-width-1-4\@s>* {
+      width: 22%;
+  }
+}
+
+
+img.bannercountry {
+  width: 100%;
+}
+
+.bannertext header.section-header {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.section-header p.pbannercountry {
+  margin: auto;
+  width: 47%;
+  padding: 10px;
+}
+
+h3.titulobannercountry {
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  .country_info .uk-card.uk-card-default {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+i.fa.fa-angle-double-down {
+  color: #f49f16;
+  font-size: 40px;
+}
