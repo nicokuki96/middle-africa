@@ -1,13 +1,3 @@
-/**
-* Template Name: BizPage - v4.0.1
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -568,7 +558,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f7f7f7;
+  background: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1324,7 +1314,6 @@ section {
 }
 
 #contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
 }
 
@@ -1599,11 +1588,10 @@ section {
   color: #fff;
   margin: auto;
   width: 50%;
-  padding: 10px;
 }
 
 section#one {
-  background-color: #1e3532;
+  background-color: #051917;
   padding: 6em 0 6em 0;
 }
 
@@ -1657,6 +1645,18 @@ section#contact textarea.form-control {
   }
   section#mainAssets .container {
     max-width: 960px;
+  }
+  .container.bannerstexto {
+    margin-top: -200px;
+    margin-bottom: -329px;
+  }
+  .container.bannerstexto2 {
+    margin-top: -206px;
+    margin-bottom: -170px;
+  }
+  #contact .php-email-form {
+    padding-right: 150px;
+    padding-left: 150px;
   }
 }
 
@@ -1773,14 +1773,21 @@ a.uk-position-center-right.uk-position-small.uk-hidden-hover.uk-icon.uk-slidenav
   .uk-child-width-1-4\@s>* {
       width: 22%;
   }
-  #two .row>* {
+  .row>* {
     padding-right: 0;
     padding-left: 0;
   }
+  form.php-email-form .row .form-group {
+    padding-right: 10px;
+  }
 
-  #two .col-lg-6.col-xs-12 .container {
+  .col-lg-6.col-xs-12 .container {
     padding-left: 0;
     padding-right: 0;
+  }
+  img.imageparrafo {
+    max-width: 185%;
+    z-index: 2;
   }
 }
 
@@ -1808,8 +1815,12 @@ h3.titulobannercountry {
 
 @media only screen and (max-width: 600px) {
   .country_info .uk-card.uk-card-default {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  p.sentence {
+    text-align: center;
   }
     .container p.textone {
       width: 100%; 
@@ -1820,9 +1831,26 @@ h3.titulobannercountry {
     color: white;
     text-shadow: 1px 1px 1px black;
   }
-  #two .row>* {
+  .row>* {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .expertsbanner {
+      width: 80%;
+      text-align: center;
+  }
+  p.meet {
+    font-size: 38px !important;
+  }
+  p.experts {
+    font-size: 68px !important;
+  }
+  .circulo1 {
+    display: none;
+  }
+  .circulo2 {
+    display: none;
   }
 }
 
@@ -1851,7 +1879,7 @@ i.fa.fa-angle-double-down {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #1e3532;
+  background-color: #051917;
 }
 
 .container:hover .overlay {
@@ -1869,4 +1897,94 @@ i.fa.fa-angle-double-down {
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: bold;
+}
+
+.col-lg-7.col-xs-12.members {
+  background-color: #f4f4f4;
+}
+
+.uk-card.uk-card-default.home {
+  background-color: #f4f4f4;
+}
+
+p.meet {
+  color: #606060;
+  font-size: 54px;
+  font-weight: bold;
+  margin: auto;
+}
+
+p.experts {
+  font-size: 98px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.expertsbanner {
+  margin: auto;
+  width: 76%;
+}
+
+h3.uk-card-title.name {
+  color: black !important;
+  width: 50%;
+  margin-bottom: 0;
+}
+
+p.sentence {
+  color: #606060;
+} 
+
+p.rol {
+  color: #606060;
+  padding-left: 13%;
+}
+
+section.partree {
+  background-color: #051917;
+}
+
+.col-lg-6.col-xs-12.culturaltext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.contactimage {
+  position: absolute;
+  top: 0%;
+  right: 50%;
+}
+
+
+img.contactimage {
+  position: absolute;
+  top: 24%;
+  right: 82%;
+  width: 600px;
+  height: 600px;
+}
+
+.row.sentenceletters {
+  margin-top: 14%;
+}
+
+.circulo1 {
+  height: 550px;
+  width: 550px;
+  background: #1e3532;
+  border-radius: 100%;
+  margin-top: -34%;
+  float: right;
+  margin-right: -185px;
+}
+.circulo2 {
+  height: 550px;
+  position: absolute;
+  width: 550px;
+  background: #1e3532;
+  border-radius: 100%;
+  margin-left: -8%;
+  margin-top: -48%;
 }
