@@ -1789,8 +1789,32 @@ a.uk-position-center-right.uk-position-small.uk-hidden-hover.uk-icon.uk-slidenav
     max-width: 185%;
     z-index: 2;
   }
+  img.img-fluid.image.second {
+    height: 582px;
+  }
+  img.img-fluid.image.mobile1 {
+    display: none;
+  }
+  img.img-fluid.image.mobile2 {
+    display: none;
+  }
+  p.textone.first.features {
+    display: none;
+  }
+  p.textone.first.features2 {
+    display: none;
+  }
 }
 
+img.img-fluid.image.mobile1 {
+  float: right;
+  margin-right: -115px;
+  margin-top: 70%;
+}
+
+img.img-fluid.image.mobile2 {
+  margin-left: -31%;
+}
 
 img.bannercountry {
   width: 100%;
@@ -1851,6 +1875,65 @@ h3.titulobannercountry {
   }
   .circulo2 {
     display: none;
+  }
+  p.textone.first {
+    margin-bottom: 30px;
+  }
+
+  section#one {
+    background-color: #051917;
+    padding: 6em 16px 6em 16px;
+    margin-bottom: -2px;
+  }
+
+  img.img-fluid.image.first {
+    display: none;
+  }
+
+  img.img-fluid.image.second {
+   display: none;
+  }
+  section.partree {
+    display: none;
+  }
+
+  .overlay{
+    display: none;
+  }
+  p.textone.first.features {
+    position: absolute;
+    margin-top: 107%;
+    text-transform: uppercase;
+    margin-left: -16%;
+    font-size: 35px;
+  }
+  p.textone.first.features2 {
+    position: absolute;
+    margin-top: -53%;
+    text-transform: uppercase;
+    margin-left: 9%;
+    font-size: 35px;
+  }
+  .triangle1 {
+    width: 100%;
+    border-style: solid;
+    border-width: 446px 374px 361px 0px;
+    border-color: transparent #1e3532 transparent transparent;
+  }
+  section#two {
+    margin-top: -74%;
+  }
+
+  p.textone.second {
+      color: #f0a800;
+      padding-left: 22px;
+      padding-right: 22px;
+  }
+  .container.uno {
+    z-index: 99;
+  }
+  .col-lg-6.col-xs-12.ceremonies {
+    margin-top: -40%;
   }
 }
 
@@ -1987,4 +2070,23 @@ img.contactimage {
   border-radius: 100%;
   margin-left: -8%;
   margin-top: -48%;
+}
+
+section#two {
+  background-color: #051917;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  #contact {
+    padding: 60px 0;
+  }
+  .circulo1 {
+    display: none;
+  }
+
+  .circulo2 {
+   display: none;
+  }
 }
