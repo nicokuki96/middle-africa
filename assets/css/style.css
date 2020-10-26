@@ -2258,9 +2258,8 @@ and (max-device-width : 1024px)  {
 /* Slider view all */
 .cont {
   position: relative;
-  height: 130vh;
+  height: 115vh;
   overflow: hidden;
-  margin-top: 2%;
 }
 
 .slider {
@@ -2361,7 +2360,7 @@ and (max-device-width : 1024px)  {
           transform: translate3d(0, 0, 0);
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
-  font-size: 50vw;
+  font-size: 30vw;
   font-weight: 800;
   color: #000;
   z-index: 2;
@@ -3037,9 +3036,19 @@ ul.nav {
   position: sticky;
   width: 3%;
   float: right;
-  margin-top: -45%;
+  margin-top: -37%;
 }
 
 ul.nav li {
   margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+  ul.nav {
+    position: absolute;
+    top: 90%;
+    width: auto;
+  }
+}
+
+
