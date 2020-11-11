@@ -5,13 +5,11 @@ body {
 }
 
 a {
-  color: #18d26e;
   transition: 0.5s;
   text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
-  color: #18d36e;
   outline: none;
   text-decoration: none;
 }
@@ -1644,6 +1642,9 @@ section#contact textarea.form-control {
   #contact {
     padding: 60px 270px;
   }
+  .row.sentenceletters {
+    height: 530px;
+  }
   section#mainAssets .container {
     max-width: 960px;
   }
@@ -1672,11 +1673,9 @@ section.country_info img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin-top: -12px;
 }
 
-section.country_info a {
-  background-color: #606060;
-}
 
 .country_info .uk-dotnav>.uk-active>* {
   background-color: #f49f16;
@@ -1872,6 +1871,9 @@ h3.titulobannercountry {
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
+  }
+  a#homeback {
+    margin-left: 5%;
   }
   div#business {
     width: 100%;
@@ -2076,6 +2078,9 @@ h3.titulobannercountry {
     top: 35% !important;
     left: 35% !important;
   }
+  section#team {
+    margin-top: 20px;
+  }
 }
 
 i.fa.fa-angle-double-down {
@@ -2148,6 +2153,7 @@ p.experts {
 .expertsbanner {
   margin: auto;
   width: 76%;
+  margin-top: 14%;
 }
 
 h3.uk-card-title.name {
@@ -2190,8 +2196,8 @@ img.contactimage {
   height: 600px;
 }
 
-.uk-position-relative.uk-visible-toggle.uk-light{
-margin-top: 14%;
+.uk-position-relative.uk-visible-toggle.uk-light.texteam{
+margin-top: 18%;
 }
 
 .circulo1 {
@@ -2231,6 +2237,12 @@ and (max-device-width : 1024px)  {
   .circulo2 {
    display: none;
   }
+  p.meet {
+    font-size: 41px !important;
+  }
+  p.experts {
+    font-size: 77px;
+  }
 }
 
 /* media query iphone 5 */
@@ -2251,6 +2263,9 @@ and (max-device-width : 1024px)  {
   ul.nav {
     margin-top: -25%;
   }
+  p.meet {
+    font-size: 53px;
+  }
 }
 
 
@@ -2258,7 +2273,7 @@ and (max-device-width : 1024px)  {
 /* Slider view all */
 .cont {
   position: relative;
-  height: 115vh;
+  height: 110vh;
   overflow: hidden;
 }
 
@@ -2392,7 +2407,7 @@ and (max-device-width : 1024px)  {
 }
 .slide--1__darkbg {
   left: 0%;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/city--1-min-min.jpg") center center no-repeat;
+  background: url("../img/RTX1DQYA-e1565327009208.png") center center no-repeat;
   background-size: cover;
   background-position: 0px center, 0px center;
   -webkit-transform: translate3d(0, 0, 0);
@@ -3069,6 +3084,7 @@ ul.nav li {
   flex-direction: column;
   line-height: 0;
   margin-top: 0%;
+  list-style: none;
 }
 .thumbnailscountry li {
   -webkit-box-flex: 1;
@@ -3150,3 +3166,71 @@ ul.nav li {
 
 
 
+a.btn.homeback i.ion-ios-arrow-right {
+  font-size: 27px;
+}
+
+a.btn.homeback {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 30px;
+  background-color: #fff !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 18%;
+  margin-left: 5px;
+}
+a.btn.homeback:hover {
+  box-shadow: 0px 15px 20px rgba(30, 53, 50, 0.4);
+  color: #000;
+}
+
+img.flagcountry.summary {
+  margin-top: 0px !important;
+}
+
+p.summarypara {
+  font-size: 14px;
+}
+
+h4.uk-card-title.titulosummaryp {
+  text-align: center;
+  color: #051917;
+}
+
+li.bestr.bestr {
+  color: #1e3532;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+}
+
+li.bestr {
+  text-align: center;
+}
+
+li.hightin.hightin {
+  color: #1e3532;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+}
+
+li.hightin {
+  text-align: center;
+}
+
+img.imgbestr {
+  height: 80px;
+  display: inline !important;
+}
+
+img.imghightin {
+  height: 80px;
+  display: inline !important;
+}
+
+.uk-card.uk-card-default.summarytextdesc {
+  padding-left: 30px;
+  padding-right: 30px;
+}
