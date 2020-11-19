@@ -2035,49 +2035,7 @@ h3.titulobannercountry {
     padding-left: 35px;
     padding-right: 35px;
   }
-  .controls {
-    margin-top: 32% !important;
-  }
-  .safeway {
-    left: 40% !important;
-  }
-  .motor-vehicle {
-    left: 15% !important;
-  }
-  .hilton-garden {
-    left: 37% !important;
-  }
-  .pd-brown {
-    left: 59% !important;
-  }
-  .bostons {
-    top: 20% !important;
-    left: 23% !important;
-  }
-  .charles-towne-plaza {
-    top: 20% !important;
-    left: 48% !important;
-  }
-  .red-hot-blue {
-    top: 26% !important;
-    left: 28% !important;
-  }
-  .giant-food {
-    top: 25% !important;
-    left: 40% !important;
-  }
-  .target {
-    top: 23% !important;
-    left: 60% !important;
-  }
-  .doolittle {
-    top: 29% !important;
-    left: 58% !important;
-  }
-  .charles-towne-center {
-    top: 35% !important;
-    left: 35% !important;
-  }
+
   section#team {
     margin-top: 20px;
   }
@@ -2942,58 +2900,58 @@ p.subtextmap {
 }
 
 .hilton-garden {
-  top: 15%;
-  left: 69%;
+  top: 27%;
+  left: 77%;
 }
 
 .bostons {
-  top: 20%;
-  left: 61%;
-}
-
-.charles-towne-plaza {
   top: 24%;
-  left: 72%;
-}
-
-.charles-towne-center {
-  top: 45%;
-  left: 60%;
-}
-
-.target {
-  top: 31%;
-  left: 61%;
-}
-
-.doolittle {
-  top: 35%;
-  left: 79%;
-}
-
-.giant-food {
-  top: 35%;
-  left: 70%;
-}
-
-.red-hot-blue {
-  top: 33%;
-  left: 55%;
-}
-
-.motor-vehicle {
-  top: 13%;
-  left: 55%;
-}
-
-.safeway {
-  top: 6%;
   left: 62%;
 }
 
+.charles-towne-plaza {
+  top: 32%;
+  left: 56.5%;
+}
+
+.charles-towne-center {
+  top: 53%;
+  left: 64%;
+}
+
+.target {
+  top: 37%;
+  left: 66%;
+}
+
+.doolittle {
+  top: 32%;
+  left: 49%;
+}
+
+.giant-food {
+  top: 41.5%;
+  left: 78%;
+}
+
+.red-hot-blue {
+  top: 38%;
+  left: 58%;
+}
+
+.motor-vehicle {
+  top: 17%;
+  left: 60%;
+}
+
+.safeway {
+  top: 10%;
+  left: 66.5%;
+}
+
 .pd-brown {
-  top: 155px;
-  left: 81%;
+  top: 20%;
+  left: 87%;
 }
 
 .tooltiptext {
@@ -3234,3 +3192,205 @@ img.imghightin {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.row.iconssummary {
+  text-align: center;
+}
+
+a.btn.btn-sq-sm.btn-dark {
+  margin-right: 15px;
+  background-color: #051917;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+a.btn.btn-sq-sm.btn-dark:hover {
+  background-color: #f49f16;
+}
+
+/* Main carousel style */
+.carousel {
+  width: 600px;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators {
+  bottom: 0;
+  left: 0;
+  margin-left: 5px;
+  width: 100%;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+  border: medium none;
+  border-radius: 0;
+  float: left;
+  height: 54px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 5px !important;
+  margin-top: 0;
+  width: 100px;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+  border: 2px solid #FFFFFF;
+  float: left;
+  height: 54px;
+  left: 0;
+  width: 100px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+  border: 2px solid #428BCA;
+  opacity: 0.7;
+}
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .controls {
+        margin-top: 32% !important;
+      }
+      .safeway {
+        top: 11% !important;
+        left: 39% !important;
+      }
+      .motor-vehicle {
+        left: 25% !important;
+      }
+      .hilton-garden {
+        left: 63% !important;
+      }
+      .pd-brown {
+        left: 84% !important;
+      }
+      .bostons {
+        top: 23% !important;
+        left: 30% !important;
+      }
+      .charles-towne-plaza {
+        top: 31% !important;
+        left: 16% !important;
+      }
+      .red-hot-blue {
+        top: 35% !important;
+        left: 21% !important;
+      }
+      .giant-food {
+        top: 38% !important;
+        left: 64% !important;
+      }
+      .target {
+        top: 35% !important;
+        left: 35% !important;
+      }
+      .doolittle {
+        top: 34% !important;
+        left: 4% !important;
+      }
+      .charles-towne-center {
+        top: 47% !important;
+        left: 35% !important;
+      }
+     }
+
+/* media query iphone 8 plus */
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .safeway {
+        top: 13%;
+        left: 38.5%;
+      }
+      .motor-vehicle {
+        top: 19%;
+        left: 24%;
+      }
+      .bostons {
+        top: 24%;
+        left: 32%;
+      }
+      .charles-towne-center {
+        left: 35%;
+      }
+      .giant-food {
+        left: 66%;
+      }
+      .red-hot-blue {
+        left: 22%;
+      }
+      .hilton-garden {
+        top: 29%;
+        left: 63%;
+      }
+      .pd-brown {
+        top: 23%;
+        left: 81%;
+      }
+      .doolittle {
+        top: 35.5%;
+        left: 14%;
+      }
+      .charles-towne-plaza {
+        left: 26%;
+      }
+      .target {
+        left: 35%;
+      }
+    }
+
+/* media query iphone 8 */
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+      .safeway {
+        top: 11%;
+        left: 38%;
+      }
+      .motor-vehicle {
+        top: 18%;
+        left: 24%;
+      }
+      .pd-brown {
+        left: 79%;
+      }
+      .charles-towne-center {
+        top: 47%;
+        left: 34%;
+      }
+      .red-hot-blue {
+        top: 35%;
+        left: 20%;
+      }
+      .target {
+        top: 35%;
+        left: 33%;
+      }
+      .giant-food {
+        top: 40%;
+        left: 72%;
+      }
+      .bostons {
+        top: 23%;
+        left: 26%;
+      }
+      .hilton-garden {
+        top: 26%;
+        left: 62%;
+      }
+      .charles-towne-plaza {
+        top: 29%;
+        left: 27.5%;
+      }
+      .doolittle {
+        top: 31%;
+        left: 16%;
+      }
+      .controls {
+        margin-top: 33%;
+      }
+    }
