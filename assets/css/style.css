@@ -1870,6 +1870,9 @@ h3.titulobannercountry {
     padding-right: 30px;
     text-align: center;
   }
+  ul.slidescountry {
+    padding-left: 13px;
+  }
   a#homeback {
     margin-left: 5%;
   }
