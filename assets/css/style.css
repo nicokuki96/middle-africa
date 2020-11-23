@@ -2043,6 +2043,9 @@ h3.titulobannercountry {
   section.about3 {
     display: none;
   }
+  .uk-slider-items.sliderpais img {
+    width: 100%;
+  }
 }
 
 i.fa.fa-angle-double-down {
