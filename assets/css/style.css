@@ -2038,6 +2038,9 @@ h3.titulobannercountry {
   section#team {
     margin-top: 20px;
   }
+  section.about3 {
+    display: none;
+  }
 }
 
 i.fa.fa-angle-double-down {
