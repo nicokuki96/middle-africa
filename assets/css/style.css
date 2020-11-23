@@ -1877,6 +1877,11 @@ h3.titulobannercountry {
   ul.slidescountry {
     padding-left: 13px;
   }
+  .uk-card.uk-card-default.paisresumen {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+  }
   a#homeback {
     margin-left: 5%;
   }
