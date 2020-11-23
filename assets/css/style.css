@@ -1672,7 +1672,7 @@ section.country_info img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: -12px;
+  border-radius: 50%;
 }
 
 
