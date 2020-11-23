@@ -1641,6 +1641,10 @@ section#contact textarea.form-control {
   #contact {
     padding: 60px 270px;
   }
+  .uk-card.uk-card-default.paisresumen img {
+    width: 100%;
+    height: 230px;
+  }
   .row.sentenceletters {
     height: 530px;
   }
