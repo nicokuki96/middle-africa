@@ -1672,7 +1672,6 @@ section.country_info img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border-radius: 50%;
 }
 
 
@@ -3395,4 +3394,8 @@ a.btn.btn-sq-sm.btn-dark:hover {
       .controls {
         margin-top: 33%;
       }
+    }
+
+    img.imgteam {
+      border-radius: 50%;
     }
