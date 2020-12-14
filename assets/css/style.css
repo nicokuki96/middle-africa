@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #1e3532;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  border-radius: 15px;
   -webkit-columns: 2;
 }
 
@@ -417,9 +418,8 @@ h1, h2, h3, h4, h5, h6 {
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 700;
-  text-shadow: 1px 1px 2px black;
 }
 
 @media (max-width: 768px) {
@@ -430,15 +430,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro p {
   width: 100%;
-  margin: 0 auto 30px auto;
-  color: #fff;
-  text-shadow: 1px 1px 2px black;
-}
-
-@media (min-width: 1024px) {
-  #intro p {
-    width: 60%;
-  }
+  margin: 0;
+  width: 100%;
+  color: #f49f16;
+  font-weight: 600;
 }
 
 #intro .carousel-fade {
@@ -501,6 +496,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
+}
+
+#intro .go-down{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #intro .btn-get-started:hover {
@@ -846,7 +850,7 @@ section {
 }
 
 #mainAssets .progress .skill {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   line-height: 35px;
   padding: 0;
   margin: 0 0 0 20px;
@@ -1545,6 +1549,17 @@ section {
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  #footer .footer-top .footer-links:last-child {
+    text-align: right;
+  }
+}
+
+#footer .img-fluid {
+  max-width: 400px;
+  filter: invert(1);
+  width: 80%;
+}
 
 #footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
@@ -1707,6 +1722,11 @@ section.country_info h3.uk-card-title {
   font-weight: bold;
 }
 
+section.country_info .subtitle-country{
+  text-align: center;
+}
+
+
 section.country_info img.flagcountry {
   height: 50px;
   margin-top: 125px;
@@ -1797,8 +1817,9 @@ a.uk-position-center-right.uk-position-small.uk-hidden-hover.uk-icon.uk-slidenav
     max-width: 185%;
     z-index: 2;
   }
-  img.img-fluid.image.second {
+  img.img-fluid.image.second, img.img-fluid.image.first  {
     height: 582px;
+    object-fit: cover;
   }
   img.img-fluid.image.mobile1 {
     display: none;
@@ -1869,6 +1890,18 @@ img.bannercountry {
 h3.titulobannercountry {
   font-size: 48px;
 }
+
+/* SLIDESHOW COUNTRIES */
+
+@media screen and (min-width: 768px){
+.section-slideshow-countries{
+  margin-top: 90px;
+}
+.slideshow-countries, .slideshow-countries img, .section-slideshow-countries .uk-slideshow{
+  height: 100%;
+}
+}
+
 
 @media only screen and (max-width: 600px) {
   .country_info .uk-card.uk-card-default {
@@ -2114,6 +2147,9 @@ p.meet {
   font-size: 54px;
   font-weight: bold;
   margin: auto;
+  opacity: 0.7;
+  line-height: 0;
+
 }
 
 p.experts {
@@ -2121,6 +2157,7 @@ p.experts {
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .expertsbanner {
